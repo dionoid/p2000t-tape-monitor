@@ -145,8 +145,8 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v1
       with:
-        name: ${{env.BASICROM_BIN}}
-        path: basicmod/${{env.BASICROM_BIN}}
+        name: BASICBOOTSTRAP.BIN
+        path: basicmod/BASICBOOTSTRAP.BIN
 
   deploy-basic-cartridge:
     runs-on: ubuntu-latest
